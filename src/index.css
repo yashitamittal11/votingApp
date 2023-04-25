@@ -11,3 +11,193 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/** Styles for ActivityList component */
+
+/* CSS for the activities list */
+.activities-list {
+  padding: 20px;
+  margin: 30px 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.activities-list h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.activities-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activities-list li {
+  font-size: 18px;
+  color: #555;
+  padding: 10px 0;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.activities-list li:last-child {
+  border-bottom: none;
+}
+
+.activities-list li span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.activities-list li:hover {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.activities-list p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #888;
+}
+
+.activities-list p span {
+  font-weight: bold;
+  color: #333;
+}
+
+.activities-list p::before {
+  content: '👍';
+  margin-right: 5px;
+  color: #F9A52B;
+}
+
+.activities-list p::after {
+  content: '🎉';
+  margin-left: 5px;
+  color: #F9A52B;
+}
+
+.activities-list p:hover {
+  color: #F9A52B;
+  cursor: pointer;
+}
+
+
+/** Styles to beautify the User Preference component*/
+
+Copy code
+.preference {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.preference h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.preference p {
+  font-size: 18px;
+  color: #555;
+}
+
+.preference p::before {
+  content: '🎉 ';
+}
+
+.preference p::after {
+  content: ' 🎉';
+}
+
+.preference p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.preference p:hover {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+/** CSS code to beautify Top Activities component*/
+.top-activity {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.top-activity h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.top-activity ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-activity li {
+  font-size: 18px;
+  color: #555;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top-activity li:last-child {
+  border-bottom: none;
+}
+
+.top-activity li span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.top-activity li:hover {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.top-activity li::before {
+  content: '🏆';
+  margin-right: 10px;
+  color: #F9A52B;
+  font-size: 24px;
+}
+
+/** CSS code to beautify Reset component*/
+.reset-button {
+  text-align: center;
+}
+
+.reset-button button {
+  background-color: #F9A52B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reset-button button:hover {
+  background-color: #fff;
+  color: #F9A52B;
+  box-shadow: 0px 0px 5px rgba(249, 165, 43, 0.5);
+}
