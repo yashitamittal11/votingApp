@@ -4,7 +4,7 @@ const activitiesSlice = createSlice({
   name: 'activities',
   initialState: [ {
     id: 1,
-    name: 'Swimming',
+    name: 'Run',
     votes: 0,
   } ],
   reducers: {
