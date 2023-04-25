@@ -6,12 +6,12 @@ const ResetPreferences = () => {
   const dispatch = useDispatch();
 
   const handleResetClick = () => {
-    dispatch(resetPreference());
+    dispatch( resetPreference() );
   };
 
   return (
     <div className = "reset-button">
-      <button onClick={handleResetClick}>Reset Preferences</button>
+      <button onClick = { handleResetClick }>Reset Preferences</button>
     </div>
   );
 };

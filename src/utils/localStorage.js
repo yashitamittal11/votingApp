@@ -5,5 +5,5 @@ export const setActivitiesToLocalStorage = () => {
       { id: 3, name: 'Cycling', votes: 0 },
     ];
   
-    localStorage.setItem('activities', JSON.stringify(activities));
+    localStorage.setItem( 'activities', JSON.stringify( activities ) );
   };

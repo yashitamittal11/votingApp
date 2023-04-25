@@ -1,13 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const preferencesSlice = createSlice({
+const preferencesSlice = createSlice( {
   name: 'preferences',
   initialState: null,
   reducers: {
-    setPreference: (state, action) => {
+    setPreference: ( state, action ) => {
       return action.payload;
     },
-    resetPreference: (state, action) => {
+    resetPreference: () => {
         return null;
     },
   },
