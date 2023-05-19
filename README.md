@@ -15,11 +15,11 @@ To get started with the project, follow these instructions:
 
 1. Clone the repository
    
-   git clone https://github.com/your-username/activity-voting-app.git
+   git clone https://github.com/yashitamittal11/votingApp.git
    
 2. Change directory to the project folder
    
-   cd activity-voting-app
+   cd votingApp
    
 3. Install dependencies
    
